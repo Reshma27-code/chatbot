@@ -52,8 +52,8 @@ splitter = RegexpTokenizer(r'\w+')
 
 # Load Dataset scraped from NHP (https://www.nhp.gov.in/disease-a-z) & Wikipedia
 # Scrapping and creation of dataset csv is done in a separate program
-df_comb = pd.read_csv("C:\\Users\\USER\\Downloads\\chatbot\\Disease-Detection-based-on-Symptoms\\Dataset\\dis_sym_dataset_comb.csv") # Disease combination
-df_norm = pd.read_csv("C:\\Users\\USER\\Downloads\\chatbot\\Disease-Detection-based-on-Symptoms\\Dataset\\dis_sym_dataset_norm.csv") # Individual Disease
+df_comb = pd.read_csv("dis_sym_dataset_comb.csv") # Disease combination
+df_norm = pd.read_csv("dis_sym_dataset_norm.csv") # Individual Disease
 
 X = df_comb.iloc[:, 1:]
 Y = df_comb.iloc[:, 0:1]
