@@ -60,7 +60,7 @@ Y = df_comb.iloc[:, 0:1]
 
 
 
-model = pickle.load(open('C:\\Users\\USER\\Downloads\\chatbot\\model.pkl','rb'))
+model = pickle.load(open('model.pkl','rb'))
 scores = cross_val_score(model, X, Y,cv=5)
 
 # List of symptoms
