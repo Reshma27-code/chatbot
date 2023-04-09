@@ -45,7 +45,7 @@ def synonyms(term):
     return set(synonyms)
 
 # utlities for pre-processing
-stop_words = stopwords.words('english')
+#stop_words = stopwords.words('english')
 lemmatizer = WordNetLemmatizer()
 splitter = RegexpTokenizer(r'\w+')
 
