@@ -18,7 +18,7 @@ from time import time
 from collections import Counter
 import operator
 import math
-from Treatment import diseaseDetail
+#from Treatment import diseaseDetail
 from sklearn.linear_model import LogisticRegression
 import streamlit as st
 from streamlit_chat import message
